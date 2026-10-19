@@ -1,0 +1,18 @@
+{
+  "name": "GRIT — тренировки без инвентаря",
+  "short_name": "GRIT",
+  "description": "Программы тренировок с собственным весом: таймер-наставник, библиотека из 29 упражнений, прогресс, серия дней.",
+  "start_url": "/GRID/",
+  "display": "standalone",
+  "background_color": "#14161c",
+  "theme_color": "#14161c",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/GRID/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
