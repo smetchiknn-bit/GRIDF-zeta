@@ -1,9 +1,9 @@
 const CACHE_NAME = 'grit-v1';
 const ASSETS = [
-  '/GRID/',
-  '/GRID/index.html',
-  '/GRID/manifest.webmanifest',
-  '/GRID/icons/icon.svg',
+  '/GRIDF-zeta/',
+  '/GRIDF-zeta/index.html',
+  '/GRIDF-zeta/manifest.webmanifest',
+  '/GRIDF-zeta/icons/icon.svg',
 ];
 
 self.addEventListener('install', (event) => {
@@ -31,6 +31,6 @@ self.addEventListener('fetch', (event) => {
         caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
         return response;
       })
-      .catch(() => caches.match(event.request).then((r) => r || caches.match('/GRID/index.html')))
+      .catch(() => caches.match(event.request).then((r) => r || caches.match('/GRIDF-zeta/index.html')))
   );
 });
